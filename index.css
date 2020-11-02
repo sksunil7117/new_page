@@ -57,9 +57,8 @@ header{
 	color: #fff;
 }
 .container{
-	background-color: ;
-	clear:;
 	text-align: center;
+	margin: 0 auto;
 
 }
 
@@ -215,19 +214,41 @@ header{
 	text-transform: uppercase;
 }
 .temp{
+	height: 650px;
 	padding: 5pc;
-	background-color: #FFFFFF;
+	margin-bottom: 5pc;
+	background-color: gold; /*#FFFFFF;*/
 }
 .template{
 	width: 100%;
-	margin-top: 5pc;margin-bottom: 5pc;
+	margin-top: 5pc;
+
+	margin: 0 auto;
+	
 
 }
+.font-awe{
+	width: 30%;
+	background-color: #FFFFFF;
+	height: ;
+	float: left;
+	line-height: 0.1;
+	text-align: center;
+	padding: 20px 40px 20px 1px;
+}
+.temp-font{
+	width: 100%;
+	background-color: #6F76DE;
+	padding-top: 6%;
+	padding-bottom: 14%;
+}
 .template-setup{
-	margin: 0 auto;
-	height: 580px;
+	width: 80%;
+	background-color: #FFFFFF;
 
-
+}
+.setup{
+	
 }
 .temp_img{
 	width: 18%;
@@ -244,4 +265,67 @@ header{
 }
 .temp_img>img{
 	margin-top: 1pc;
+}
+#img{
+	width: 30%;
+	margin-top: 5pc;
+	
+}
+.card-fontColor{
+	background-color: #F4F5F9;
+}
+.card-hover:hover{
+	background-color: #FB9374;
+
+}
+.content{
+	width: 100%;
+	padding: 20px;
+	margin: 0 auto
+	background-color: green;
+}
+.card{
+	width: 17.5%;
+	height: 210px;
+	background-color: red;
+	margin: 0 auto;
+	border: dashed 1px;
+	background-color: red;
+}
+.navbar{
+	position: fixed;
+}
+.rel{
+	position: relative;
+}
+.card1{
+	width: 17.5%;
+	height: 210px;
+	background-color: red;
+	margin: 0 auto;
+	border: dashed 1px;
+	background-color: gold;
+}
+.left{
+	margin: 13px;
+	float: left;
+}
+.card1:hover{
+	background-color: inherit;
+}
+.darkred{
+	background-color: rgb(178, 23, 8);
+}
+.green{
+	background-color: green;
+}
+.yellow{
+	background-color: rgb(244, 137, 7);
+}
+
+.blue{
+	background-color: rgb(68, 7, 237);
+}
+.lightblue{
+	background-color:rgb(125, 85, 244);
 }
