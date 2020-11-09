@@ -257,7 +257,7 @@ position: relative;
 	overflow: auto;
 }
 .bgred{
-	background-color: red;
+	background-color: #F4F5F9;
 	margin-top: 10pc;
 }
 .details{
@@ -268,11 +268,11 @@ position: relative;
 	padding-bottom: 20px;
 }
 .detailsUp{
-	background-color: blue;
+	background-color: ;
 	margin-top: 10pc;
 }
 .detailsUp1{
-	background-color: gold;
+	background-color: ;
 	margin-top: 6pc;
 	padding-bottom: 8pc;
 
@@ -291,7 +291,7 @@ position: relative;
 	height: 210px;
 }
 .box1-bg{
-	background-color: red;
+	background-color: initial;
 }
 .box1-bg1{
 	background-color: silver;
@@ -302,7 +302,7 @@ position: relative;
 .box2{
 	width: 220px;
 	height: 170px;
-	background-color: green;
+	background-color: #FFF;
 	margin: auto;
 	font-size: 16px;
 	padding:;
@@ -312,7 +312,7 @@ position: relative;
 	background-color: gray;
 }
 .bgwhite{
-	background-color: purple;
+	background-color: #FFFFFF;
 	width: 100%;
 }
 .bg-img{
@@ -337,9 +337,10 @@ position: relative;
 }
 .contect{
 	width: 40%;
-	background-color: red;
+	background-color: ;
 	margin: 0 auto;
 	margin-top: 7pc;
+	border:#F4F4F4 solid;
 	border-radius: 10px;
 	padding: 3pc;
 }
@@ -357,7 +358,7 @@ position: relative;
 .textbox{
 	width: 30%;
 	height: 200px;
-	background-color: red;
+	background-color:;
 	margin: auto;
 	display: inline-block;
 }
