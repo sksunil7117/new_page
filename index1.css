@@ -3,6 +3,9 @@
 	padding: 0;
 	/*font-family: helvetica;*/
 }
+body{
+	
+}
 #content{
 	background-color: #656BD3;
 	color: #000;
@@ -21,7 +24,6 @@
 	background-color: white!important;
 	height: 100px;
 	color: white;
-	display: ;
 	position: fixed;
 	top: 0;
 	border-bottom: red solid;
@@ -102,7 +104,7 @@ position: relative;
 }
 .about{
 	width: 100%;
-	background-color: ;
+	background-color:white ;
 }
 .aboutUs{
 	position: relative;
@@ -238,7 +240,7 @@ position: relative;
 .member-box >h1{
 	display: inline-block;
 }
-.member-box i,h1,p{
+.member-box i,h1,.p{
 	margin-left: 2pc;
 	margin-top: 1pc;
 }
@@ -246,4 +248,120 @@ position: relative;
 	position: relative;
 	top: -2pc;
 	left: 6pc;
+}
+.background{
+	
+	width: 100%;
+	padding-bottom: 8pc;
+	text-align: center;
+	overflow: auto;
+}
+.bgred{
+	background-color: red;
+	margin-top: 10pc;
+}
+.details{
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	padding: 1px;
+	padding-bottom: 20px;
+}
+.detailsUp{
+	background-color: blue;
+	margin-top: 10pc;
+}
+.detailsUp1{
+	background-color: gold;
+	margin-top: 6pc;
+	padding-bottom: 8pc;
+
+}
+.box1{
+	width: 22.5%;
+	margin:0 auto;
+	padding: 20px;
+	display: inline-block;
+	position: relative;
+	margin:12px;
+	top: 20px;
+}
+.border-solid{
+	border-radius: 10px;
+	height: 210px;
+}
+.box1-bg{
+	background-color: red;
+}
+.box1-bg1{
+	background-color: silver;
+}
+.border-dotted{
+	border: 1px purple dashed;
+}
+.box2{
+	width: 220px;
+	height: 170px;
+	background-color: green;
+	margin: auto;
+	font-size: 16px;
+	padding:;
+	
+}
+.box2:hover{
+	background-color: gray;
+}
+.bgwhite{
+	background-color: purple;
+	width: 100%;
+}
+.bg-img{
+	width: 100%;
+	height: 42pc;
+	background: url('img/mobile.jpg') fixed;
+	background-color: red; 
+  	background-size: cover;
+		
+}
+.test{
+	width: 100%;
+	height: 300px;
+	background-color: red;
+	background-color: #6B71DB;
+	text-align: center;
+	color: white;
+}
+.test >h1{
+	position: relative;
+	top: 3pc;
+}
+.contect{
+	width: 40%;
+	background-color: red;
+	margin: 0 auto;
+	margin-top: 7pc;
+	border-radius: 10px;
+	padding: 3pc;
+}
+.form-group{
+	width: 70%;
+	margin: auto;
+}
+.btn-right{
+	float: right;
+}
+.contectbg{
+	margin-bottom: 5pc;
+	padding: 1;
+}
+.textbox{
+	width: 30%;
+	height: 200px;
+	background-color: red;
+	margin: auto;
+	display: inline-block;
+}
+.footer{
+	background-color: #606390;
+	height: 130px;
 }
